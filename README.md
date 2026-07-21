@@ -270,7 +270,8 @@ Never commit `.env.local.`
 
 Start the local development server:
 
-```corepack pnpm dev
+```powershell
+corepack pnpm dev
 ```
 
 Open:
@@ -279,7 +280,8 @@ Open:
 
 If Turbopack cache issues occur, clear the development cache:
 
-```Remove-Item .next -Recurse -Force
+```powershell
+Remove-Item .next -Recurse -Force
 corepack pnpm dev
 ```
 
