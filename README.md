@@ -287,7 +287,8 @@ corepack pnpm dev
 
 A Webpack fallback can be used for troubleshooting:
 
-```corepack pnpm exec next dev --webpack
+```powershell
+corepack pnpm exec next dev --webpack
 ```
 
 ## Quick Test Without API Billing
